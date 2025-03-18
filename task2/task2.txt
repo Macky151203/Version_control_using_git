@@ -1,0 +1,15 @@
+Add a new file .gitignore
+
+Now add the following to the file-
+
+(This ignore the directory with name ignore)
+ignore/
+
+(This will ignore the particular file)
+ignore_file.txt
+
+(This will ignore .py files in all directory)
+**/*.py
+
+(This will ignore all .txt file in this directory(newdir))
+newdir/*.txt
