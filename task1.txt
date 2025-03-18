@@ -1,0 +1,35 @@
+git init - used to initialize a git repository
+
+git add . - used to add all the contents in the directory to the staging for upcoming commit
+
+git commit -m "first commit" - used to save the staged changes and add a commit message
+
+git branch -M main - it is used to replace the name of the current branch to main
+
+git push -u origin main - This is used to set the main branch as the upstream branch so that future pushes and pulls will be from this branch , it will push the contents to the main branch of the connected origin
+
+git branch test_branch - This is used to create a new branch (test_branch)
+
+git checkout test_branch - This is used to change the current branch to test_branch
+
+Now add some new contents to the file
+
+
+These commands are used to push the new changes to test_branch
+-git add . 
+-git commit -m "added to test_branch"
+-git push origin test_branch
+
+
+Now switch back to main branch
+-git checkout main
+
+merge test_branch with main
+-git merge test_branch
+
+Now commit the changes
+-git commit -m "merged test_branch"
+
+Push it to main branch
+-git push origin main
+
