@@ -1,0 +1,7 @@
+Handling merge conflict
+
+Create 2 different branch and edit the same line and commit
+While merging both branches , We will get merge conflict
+Resolve in the editor and push the changes
+
+

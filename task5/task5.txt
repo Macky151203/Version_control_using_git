@@ -1,0 +1,7 @@
+Make 2 commits with message "first commit" and "second commit"
+
+Enter the git command to Squash all into one single commit and edit the commit message
+-git rebase -i HEAD~2 (for las 2 commits)
+
+Change the commit message in the editor and save
+push the new changes

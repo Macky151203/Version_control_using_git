@@ -1,0 +1,13 @@
+To save the changes made in a file 
+-git stash
+
+It acts as a stack and stores the changes
+
+For seeing the list of change stored in the stack
+-git stash list
+
+For popping a change and applying them 
+-git stash pop <index>
+
+For droping a change
+-git stash drop <index>

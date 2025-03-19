@@ -1,0 +1,11 @@
+Create 2 branches and make differnt commits
+
+Checkout to a branch and run the command to get commit logs
+-git log <branchname>
+
+Use the commit hash of another branch in the cherrypick command
+git cherry-pick <commit hash>
+
+If any conflicts then resolve , add them , commit and push the changes
+
+This is used to add a commit made in some other branch to the current branch
