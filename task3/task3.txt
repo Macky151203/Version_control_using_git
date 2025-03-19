@@ -1,0 +1,15 @@
+Go to a file and make some changes
+
+Now git add . to add the chamges to the staging area
+-git add .
+
+To unstage the changes made but keep the changes in the working directory, use
+-git restore --staged <filename>
+
+If you haven't staged and want to undo the changes made to working directory then use-
+-git restore <filename>
+
+To revert back to last commit(use HEAD to go to last commit or get the commit id from git log)
+-git revert HEAD
+
+The push again to go to last changes
